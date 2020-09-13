@@ -29,7 +29,8 @@ html, body{
 }
 
 .container{
-    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -52,6 +53,9 @@ html, body{
     background: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
     height: var(--tamanho-banner);
     opacity: 0.8;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .banner-titulo-port h1{
@@ -176,7 +180,9 @@ html, body{
 
 .projetos{
     background: url("https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
-    /* opacity: .85; */
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .projetos{
