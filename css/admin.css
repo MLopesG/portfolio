@@ -1,0 +1,91 @@
+.admin{
+    height: 100vh;
+    display: flex;
+}
+
+.tables{
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    width: 100%;
+}
+
+.admin li{
+    list-style: none;
+}
+
+.menu-admin{
+    margin-top: 1rem;
+    max-width: 16rem;
+    min-width: 16rem;
+}
+
+.menu-admin ul  a{
+    color: var(--color-primary);
+}
+
+.menu-admin ul li{
+    border: 1px solid #ddeedd;
+    padding: 10px 10px;
+}
+
+.menu-admin ul li:hover{
+    background: var(--color-secondary);
+    color:var(--color-third);
+}
+
+.menu-header{
+    background-color: var(--color-secondary);
+    padding: 10px 10px;
+    color:var(--color-third);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #f2f3f2;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddeedd;
+}
+
+th {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.servico,
+.projeto,
+.empresa{
+    margin-bottom: 1rem;
+}
+
+.action  i{
+    font-size: 1.4em;
+}
+
+.action .delete{
+    color: rgb(199, 28, 28);
+}
+
+.action .edit{
+    color: var(--color-secondary)
+}
+
+.mensagem{
+    margin-top: 1rem;
+    background: var(--color-secondary);
+    padding: 15px 10px;
+    color:var(--color-third);
+    border-radius: 5px;
+}
+
+dialog{
+    width: 900px; 
+    border: none;
+    box-shadow: 1px 1px 1px 1px #ddeedd;
+}
